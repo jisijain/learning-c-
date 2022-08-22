@@ -40,10 +40,18 @@ int main() {
   }
   int age = 24;
   if (age >19){
-    cout << "Adult";
+    cout << "Adult" <<"\n";
   
   } else {
     cout << "teenage";
+  }
+  int age1 = 25;
+  if (age>25) {
+  cout << "List1";
+  } else if (age<10) {
+    cout << "List2";
+  } else {
+    cout << "list3";
   }
 
 
