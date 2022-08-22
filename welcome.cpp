@@ -35,7 +35,9 @@ int main() {
   int n = 9;
   cout << (m < n) <<"\n";
 
-
+  if (21<30) {
+    cout << "I am smart";
+  }
 
 
   
