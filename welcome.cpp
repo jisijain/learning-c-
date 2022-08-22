@@ -10,8 +10,12 @@ int main() {
   cout << "welcome back!"<<endl;
   string firstname = "Mahima";
   string lastname = "Jain";
-  string Fullname = firstname + lastname;
+  string Fullname = firstname + " " + lastname;
   cout << Fullname <<endl;
+  string firstName = "Mahima ";
+  string lastName = "Jain";
+  string FullName = firstName.append(lastName);
+  cout << FullName << endl;
 
 
   
