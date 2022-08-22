@@ -8,6 +8,10 @@ int main() {
   cout << "Hello Jisi in World!"<<endl;
   cout << "Hello Jisi in World!"<<endl;
   cout << "welcome back!"<<endl;
+  string firstname = "Mahima";
+  string lastname = "Jain";
+  string Fullname = firstname + lastname;
+  cout << Fullname <<endl;
 
 
   
