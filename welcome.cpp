@@ -36,7 +36,14 @@ int main() {
   cout << (m < n) <<"\n";
 
   if (21<30) {
-    cout << "I am smart";
+    cout << "I am smart" << "\n";
+  }
+  int age = 24;
+  if (age >19){
+    cout << "Adult";
+  
+  } else {
+    cout << "teenage";
   }
 
 
