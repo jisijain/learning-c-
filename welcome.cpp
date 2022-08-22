@@ -17,17 +17,26 @@ int main() {
   string lastName = "Jain";
   string FullName = firstName.append(lastName);
   cout << FullName << endl;
+
   string text = "ABC DEF GHI JKL MNO PQR STU VW XYZ";
   cout << "Total number of character. is " << text.size() << endl;
+
   string quality = "Smurt";
   quality[2] = 'a';
   cout << quality << endl; 
   
   cout << sqrt(4)<< "\n";
+
   bool MahimaIsSmart = true;
   bool KshamaIsDhor = false;
   cout << MahimaIsSmart <<"\n";
   cout << KshamaIsDhor <<"\n";
+  int m = 10;
+  int n = 9;
+  cout << (m < n) <<"\n";
+
+
+
 
   
   return 0;
