@@ -51,8 +51,11 @@ int main() {
   } else if (age<10) {
     cout << "List2";
   } else {
-    cout << "list3";
+    cout << "list3" <<"\n";
   }
+  int Xage = 21;
+  string result = (Xage>21) ?  "Yes" : "No";
+  cout << result << "\n";
 
 
   
