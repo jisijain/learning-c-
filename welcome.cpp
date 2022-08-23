@@ -2,7 +2,7 @@
 using namespace std;
 #include <string>  
 #include <cmath>
-int main() { 
+int main() {
   
   string greeting = "hello";
   cout << greeting <<endl;
@@ -56,8 +56,24 @@ int main() {
   int Xage = 21;
   string result = (Xage>21) ?  "Yes" : "No";
   cout << result << "\n";
+  
+      int mood = 4;{
+       switch (mood) {
+      case 1:
+        cout << "Happy";
+        break; 
+      case 2:
+      cout << "sad";
+        break;
+      case 3:
+        cout << "exited";
+        break;
+      case 4:
+        cout << "proud";
+        break;
+      }
 
-
+      }
   
   return 0;
 }
